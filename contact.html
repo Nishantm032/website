@@ -111,7 +111,7 @@
    
         <div class="form">
            <input type="text" placeholder="Your email address" >
-           <button class="normal">Sign Up</button>
+           <button class="normal" id="removeBtn">Sign Up</button>
         </div>
        </section>
 
@@ -171,6 +171,13 @@
         </div>
     </footer>
 
+
+    <script>
+        let Btns1 = document.getElementById('removeBtn');
+        Btns1.addEventListener("click" , function(){
+            window.location.href = "contact.html";
+        });
+    </script>
    
 
         <script src="script.js"></script>
